@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Water</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(95, 95, 95);
+        }
+        #header{
+            width: 99.9267935578331vw;
+            height: 4.124450951683748vw;
+            background-color: grey;
+            margin-top: -10px;
+            margin-left: -10px;
+            display: inline-block;
+        }
+        #LogoButton{
+            border-style: solid;
+            border-color: transparent;
+            background-color: transparent;
+            color: white;
+            font-weight: bolder;
+            font-size: 2.4890190336749636vw;
+            font-family: cursive;
+            display: inline-block;
+        }
+        #LogoButton:hover{
+            color: black;
+        }
+        #btn, #btnn{
+            width: 8vw;
+            height:  4.124450951683748vw;
+            margin-top: -0.0vw;
+            font-size: 2vw;
+            font-weight: bold;
+            background-color: transparent;
+            border-style: solid;
+            border-width: 0px;
+            color: white;
+        }
+        #btnn{
+            font-size: 1vw;
+
+        }
+        #btn:hover{
+            border-width: 1px;
+            border-color: black;
+            color: black;
+        }
+        #btnn:hover{
+            border-width: 1px;
+            border-color: black;
+            color: black;
+        }
+        #stuff{
+            display: flex;
+        }
+        #spacetxt{
+            color: transparent;
+            font-size: 1.2vw;
+            user-select: none;
+            display: inline-block;
+        }
+        #headerButton{
+            color: transparent;
+        }
+    </style>
+    <div id="header">
+        <div id="stuff">
+            <button id="LogoButton">Happy-Water</button> 
+            <p id="spacetxt">flabbergasted</p>
+           <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\index.html">  
+                <button id="btn">Home</button>
+                <p id="spacetxt">flab</p>
+            </a>
+            <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\about.html">  
+                <button id="btn">About</button>
+                <p id="spacetxt">flab</p>
+            </a>
+            <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\features.html">  
+                <button id="btn">Features</button>
+                <p id="spacetxt">flab</p>
+            </a>
+            <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\contact.html">  
+                <button id="btn">Contact</button>
+                <p id="spacetxt">flab</p>
+            </a>
+            <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\more.html">  
+                <button id="btn">More</button>
+                <p id="spacetxt">flabbergasted</p>
+            </a>
+            <a id="headerButton" href="C:\Users\Alex\Desktop\happywater\login.html">  
+                <button id="btnn">Login</button>
+                <p id="spacetxt">flab</p>
+            </a>
+        </div>
+        </div>
+        <script>
+            document.getElementById("LogoButton").onclick = function(){
+                document.getElementById("LogoButton").innerHTML="Stop Clicking"
+                setTimeout(function() {
+  document.getElementById("LogoButton").innerHTML="Happy-Water"
+}, 1000);
+            }
+        </script>
+</body>
+</html>
